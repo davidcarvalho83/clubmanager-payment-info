@@ -24,10 +24,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +31,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  margin-bottom: 16px;
+}
+
+.MuiPaper-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+}
+
+.MuiAccordion-root {
+  flex-direction: column !important;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.MuiAccordionSummary-root {
+  width: 100%;
+}
+
+button .MuiCircularProgress-root {
+  width: 30px !important;
+  height: 30px !important;
+  color: white;
+  margin-left: 16px !important;
+}
+
+.MuiCircularProgress-colorPrimary {
+  margin-top: 16px;
+  color: #282c34;
+}
+
+.MuiSnackbar-root {
+  left: 0 !important;
+  right: auto !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 32px !important;
+}
+
+.MuiAlert-standardError {
+  background-color: #d32f2f !important;
+  color: white !important;
+}
+
+.MuiAlert-standardError svg {
+  color: white !important;
+}
+
+.accordion-wrapper {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-data-header .MuiAccordionSummary-root {
+  padding-left: 32px;
 }

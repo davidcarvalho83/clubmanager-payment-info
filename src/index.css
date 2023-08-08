@@ -1,13 +1,82 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
+  height: 100% !important;
+  background: rgb(8,44,73);
+  background: linear-gradient(353deg, rgba(8,44,73,1) 0%, rgba(82,141,198,1) 39%, rgba(152,213,255,1) 100%);
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root,
+.App {
+  padding: 16px;
+  font-family: 'Oswald', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+th {
+  font-weight: bold !important;
+}
+
+
+.MuiTypography-root {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.MuiCollapse-root {
+  width: 100%;
+}
+
+
+.MuiAccordionDetails-root {
+  padding: 0 0 !important;
+}
+
+.total > th {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.MuiBottomNavigationAction-root img {
+  height: 40px;
+}
+
+.MuiBox-root {
+  max-width: 100%;
+}
+
+.MuiBottomNavigation-root {
+  padding: 8px;
+}
+
+.MuiAccordionSummary-content {
+  margin: 0 !important;
+  max-width: 100%;
+}
+
+.MuiTable-root {
+  max-width: 100% !important;
+  min-width: 0 !important;
+}
+
+[role="tabpanel"] {
+  min-height: 170px;
+}
+
+[role="tabpanel"] > .MuiBox-root {
+  padding: 0 32px;
 }
